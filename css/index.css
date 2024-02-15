@@ -1,20 +1,10 @@
 @media all and (max-width:575.5px) {
 
     /* xs */
-    .top-page {
-        height: 130px;
-        background-color: #FF9064;
-    }
-
-    .logo {
-        width: 135px;
-        height: 46px;
-    }
-
     .top-page2 {
         height: 290px;
         background-color: #FF9064;
-        margin-top: -5px;
+        margin-top: -20px;
     }
 
     .top-page-3 {
@@ -33,6 +23,7 @@
     }
 
     .pic1 {
+        margin-top: 20px;
         width: 150px;
         height: 150px;
     }
@@ -99,6 +90,7 @@
     .span-work {
         height: 100px;
         margin-top: 50px;
+        margin-left: 5%;
     }
 
     .span1 {
@@ -109,7 +101,7 @@
         background-image: url(../images/gallery1.png.webp);
         background-size: cover;
         overflow: hidden;
-        width: 270px;
+        width: 90%;
         height: 335px;
     }
 
@@ -117,7 +109,7 @@
         background-image: url(../images/gallery2.png.webp);
         background-size: cover;
         overflow: hidden;
-        width: 270px;
+        width: 90%;
         height: 335px;
     }
 
@@ -125,7 +117,7 @@
         background-image: url(../images/gallery3.png.webp);
         background-size: cover;
         overflow: hidden;
-        width: 270px;
+        width: 90%;
         height: 335px;
     }
 
@@ -133,8 +125,55 @@
         background-image: url(../images/gallery4.png.webp);
         background-size: cover;
         overflow: hidden;
-        width: 270px;
+        width: 90%;
         height: 335px;
+    }
+
+    .more-work {
+        width: 100%;
+        height: 170px;
+        color: #FF9064;
+    }
+
+    .button-more-work {
+        width: 165px;
+        height: 50px;
+        border: 2px solid #FF9064;
+    }
+
+    .half-70 {
+        width: 75%;
+        height: 850px;
+        background-color: #F8F8F8;
+        border-top-right-radius: 70px;
+        border-bottom-right-radius: 70px;
+    }
+
+    .about-p2 {
+        font-size: 26px;
+        color: #FF9064;
+    }
+
+    .mid-slider {
+        height: 450px;
+    }
+
+    .num1 {
+        width: 100%;
+    }
+
+    .progress-1>span {
+        color: #FF9064;
+    }
+
+    .progress-bar1 {
+        height: 4px;
+        background-color: #FFE7DE;
+    }
+
+    .progress-bar11 {
+        width: 70%;
+        background-color: #FF9064;
     }
 }
 
@@ -142,10 +181,6 @@
 @media all and (min-width:576px) and (max-width:767px) {
 
     /* sm */
-    .top-page {
-        height: 130px;
-        background-color: #FF9064;
-    }
 
     .top-page2 {
         height: 151px;
@@ -251,10 +286,11 @@
     .span-work {
         height: 100px;
         margin-top: 50px;
+        margin-left: 3%;
     }
 
     .span1 {
-        font-size: 28px;
+        font-size: 31px;
     }
 
     .my-work-photo {
@@ -266,7 +302,7 @@
     }
 
     .my-work-photo1 {
-        background-image: url(../images/gallery1.png.webp);
+        background-image: url(../images/gallery2.png.webp);
         background-size: cover;
         overflow: hidden;
         width: 240px;
@@ -274,7 +310,7 @@
     }
 
     .my-work-photo2 {
-        background-image: url(../images/gallery1.png.webp);
+        background-image: url(../images/gallery3.png.webp);
         background-size: cover;
         overflow: hidden;
         width: 240px;
@@ -282,25 +318,65 @@
     }
 
     .my-work-photo3 {
-        background-image: url(../images/gallery1.png.webp);
+        background-image: url(../images/gallery4.png.webp);
         background-size: cover;
         overflow: hidden;
         width: 240px;
         height: 335px;
     }
 
+    .more-work {
+        width: 100%;
+        height: 170px;
+        color: #FF9064;
+    }
 
+    .button-more-work {
+        width: 165px;
+        height: 50px;
+        border: 2px solid #FF9064;
+    }
+
+    .half-70 {
+        width: 75%;
+        height: 850px;
+        background-color: #F8F8F8;
+        border-top-right-radius: 70px;
+        border-bottom-right-radius: 70px;
+    }
+
+    .about-p2 {
+        font-size: 26px;
+        color: #FF9064;
+    }
+
+    .mid-slider {
+        height: 450px;
+    }
+
+    .num1 {
+        width: 100%;
+    }
+
+    .progress-1>span {
+        color: #FF9064;
+    }
+
+    .progress-bar1 {
+        height: 4px;
+        background-color: #FFE7DE;
+    }
+
+    .progress-bar11 {
+        width: 70%;
+        background-color: #FF9064;
+    }
 }
 
 /* ***************************************************************************************** */
-@media all and (min-width:768px) and (max-width:991px) {
+@media all and (min-width:768px) and (max-width:991.5px) {
 
     /* md */
-    .top-page {
-        height: 130px;
-        background-color: #FF9064;
-    }
-
     .top-page2 {
         height: 250px;
         background-color: #FF9064;
@@ -316,11 +392,6 @@
     .mid-page {
         height: 150px;
         background-color: white;
-    }
-
-    .toppage0 {
-        height: 2000px;
-        background-color: bisque;
     }
 
     .pic1 {
@@ -400,15 +471,103 @@
     .img-midd {
         margin-top: 50px;
     }
+
+    .span-work {
+        height: 100px;
+        margin-top: 50px;
+    }
+
+    .span1 {
+        font-size: 28px;
+    }
+
+    .my-work-photo {
+        background-image: url(../images/gallery1.png.webp);
+        background-size: cover;
+        overflow: hidden;
+        width: 330px;
+        height: 380px;
+    }
+
+    .my-work-photo1 {
+        background-image: url(../images/gallery2.png.webp);
+        background-size: cover;
+        overflow: hidden;
+        width: 330px;
+        height: 380px;
+    }
+
+    .my-work-photo2 {
+        background-image: url(../images/gallery3.png.webp);
+        background-size: cover;
+        overflow: hidden;
+        width: 330px;
+        height: 380px;
+    }
+
+    .my-work-photo3 {
+        background-image: url(../images/gallery4.png.webp);
+        background-size: cover;
+        overflow: hidden;
+        width: 330px;
+        height: 380px;
+    }
+
+    .more-work {
+        width: 100%;
+        height: 170px;
+        color: #FF9064;
+    }
+
+    .button-more-work {
+        width: 165px;
+        height: 50px;
+        border: 2px solid #FF9064;
+    }
+
+    .half-70 {
+        width: 75%;
+        height: 850px;
+        background-color: #F8F8F8;
+        border-top-right-radius: 70px;
+        border-bottom-right-radius: 70px;
+    }
+
+    .about-p2 {
+        font-size: 26px;
+        color: #FF9064;
+    }
+
+    .mid-slider {
+        width: 100%;
+        height: 450px;
+    }
+
+    .num1 {
+        width: 100%;
+    }
+
+    .progress-1>span {
+        color: #FF9064;
+    }
+
+    .progress-bar1 {
+        height: 4px;
+        background-color: #FFE7DE;
+    }
+
+    .progress-bar11 {
+        width: 70%;
+        background-color: #FF9064;
+    }
 }
 
 /* ***************************************************************************************** */
 @media all and (min-width:992px) and (max-width:1199px) {
 
     /* lg */
-    .top-page {
-        height: 250px;
-        background-color: #FF9064;
+    .nav-bar {
+        background-color: aqua;
     }
 
     .top-page2 {
@@ -506,36 +665,104 @@
         margin-top: 50px;
     }
 
-    .button1 {
-        width: 150px;
+    .span-work {
+        height: 100px;
+        margin-top: 50px;
+        margin-left: 2%;
+    }
+
+    .span1 {
+        font-size: 41px;
+    }
+
+    .my-work-photo {
+        background-image: url(../images/gallery1.png.webp);
+        background-size: cover;
+        overflow: hidden;
+        width: 450px;
+        height: 400px;
+    }
+
+    .my-work-photo1 {
+        background-image: url(../images/gallery2.png.webp);
+        background-size: cover;
+        overflow: hidden;
+        width: 450px;
+        height: 400px;
+    }
+
+    .my-work-photo2 {
+        background-image: url(../images/gallery3.png.webp);
+        background-size: cover;
+        overflow: hidden;
+        width: 450px;
+        height: 400px;
+    }
+
+    .my-work-photo3 {
+        background-image: url(../images/gallery4.png.webp);
+        background-size: cover;
+        overflow: hidden;
+        width: 450px;
+        height: 400px;
+    }
+
+    .more-work {
+        width: 100%;
+        height: 170px;
+        color: #FF9064;
+    }
+
+    .button-more-work {
+        width: 165px;
         height: 50px;
+        border: 2px solid #FF9064;
+    }
+
+    .half-70 {
+        width: 75%;
+        height: 850px;
+        background-color: #F8F8F8;
+        border-top-right-radius: 70px;
+        border-bottom-right-radius: 70px;
+    }
+
+    .about-p2 {
+        font-size: 26px;
+        color: #FF9064;
+    }
+
+    .mid-slider {
+        height: 450px;
+    }
+
+    .num-all {
+        margin-top: 10%;
+    }
+
+    .num1 {
+        width: 450px;
+    }
+
+    .progress-1>span {
+        color: #FF9064;
+    }
+
+    .progress-bar1 {
+        height: 4px;
+        background-color: #FFE7DE;
+    }
+
+    .progress-bar11 {
+        width: 70%;
         background-color: #FF9064;
-    }
-
-    .logo {
-        width: 135px;
-        height: 46px;
-    }
-
-    li {
-        list-style-type: none;
-        padding-right: 35px;
-        padding-top: 30px;
-    }
-
-    li>a {
-        font-size: 16px;
     }
 }
 
 /* ***************************************************************************************** */
-@media all and (min-width:1200px) and (max-width:1399px) {
+@media all and (min-width:1200px) and (max-width:1399.5px) {
 
     /* xl */
-    .top-page {
-        height: 300px;
-        background-color: #FF9064;
-    }
 
     .top-page2 {
         height: 350px;
@@ -633,28 +860,102 @@
         margin-top: 50px;
     }
 
+    .span-work {
+        height: 100px;
+        margin-top: 50px;
+        margin-left: 9%;
+    }
 
-    .button1 {
-        width: 150px;
+    .span1 {
+        font-size: 41px;
+    }
+
+    .my-work-photo {
+        background-image: url(../images/gallery1.png.webp);
+        background-size: cover;
+        overflow: hidden;
+        width: 570px;
+        height: 400px;
+    }
+
+    .my-work-photo1 {
+        background-image: url(../images/gallery2.png.webp);
+        background-size: cover;
+        overflow: hidden;
+        width: 570px;
+        height: 400px;
+    }
+
+    .my-work-photo2 {
+        background-image: url(../images/gallery3.png.webp);
+        background-size: cover;
+        overflow: hidden;
+        width: 570px;
+        height: 400px;
+    }
+
+    .my-work-photo3 {
+        background-image: url(../images/gallery4.png.webp);
+        background-size: cover;
+        overflow: hidden;
+        width: 570px;
+        height: 400px;
+    }
+
+    .more-work {
+        width: 100%;
+        height: 170px;
+        color: #FF9064;
+    }
+
+    .button-more-work {
+        width: 165px;
         height: 50px;
+        border: 2px solid #FF9064;
+
+    }
+
+    .half-70 {
+        width: 75%;
+        height: 850px;
+        background-color: #F8F8F8;
+        border-top-right-radius: 70px;
+        border-bottom-right-radius: 70px;
+    }
+
+    .about-h2 {
+        font-size: 50px;
+    }
+
+    .about-p2 {
+        font-size: 26px;
+        color: #FF9064;
+    }
+
+    .mid-slider {
+        height: 450px;
+    }
+
+    .num-all {
+        margin-top: 10%;
+    }
+
+    .num1 {
+        width: 570px;
+    }
+
+    .progress-1>span {
+        color: #FF9064;
+    }
+
+    .progress-bar1 {
+        height: 4px;
+        background-color: #FFE7DE;
+    }
+
+    .progress-bar11 {
+        width: 70%;
         background-color: #FF9064;
-        margin-right: 55px;
-    }
-
-    .logo {
-        width: 135px;
-        height: 46px;
-        margin-left: 70px !important;
-    }
-
-    li {
-        list-style-type: none;
-        padding-right: 45px;
-        padding-top: 30px;
-    }
-
-    li>a {
-        font-size: 16px;
     }
 }
 
@@ -662,10 +963,6 @@
 @media all and (min-width:1400px) {
 
     /* xxl */
-    .top-page {
-        height: 300px;
-        background-color: #FF9064;
-    }
 
     .top-page2 {
         height: 350px;
@@ -763,35 +1060,101 @@
         margin-top: 50px;
     }
 
+    .span-work {
+        height: 100px;
+        margin-top: 50px;
+        margin-left: 5%
+    }
 
-    .button1 {
-        width: 150px;
+    .span1 {
+        font-size: 50px;
+    }
+
+    .my-work-photo {
+        background-image: url(../images/gallery1.png.webp);
+        background-size: cover;
+        overflow: hidden;
+        width: 570px;
+        height: 400px;
+    }
+
+    .my-work-photo1 {
+        background-image: url(../images/gallery2.png.webp);
+        background-size: cover;
+        overflow: hidden;
+        width: 570px;
+        height: 400px;
+    }
+
+    .my-work-photo2 {
+        background-image: url(../images/gallery3.png.webp);
+        background-size: cover;
+        overflow: hidden;
+        width: 570px;
+        height: 400px;
+    }
+
+    .my-work-photo3 {
+        background-image: url(../images/gallery4.png.webp);
+        background-size: cover;
+        overflow: hidden;
+        width: 570px;
+        height: 400px;
+    }
+
+    .more-work {
+        width: 100%;
+        height: 170px;
+        color: #FF9064;
+    }
+
+    .button-more-work {
+        width: 165px;
         height: 50px;
+        border: 2px solid #FF9064;
+    }
+
+    .half-70 {
+        width: 75%;
+        height: 770px;
+        background-color: #F8F8F8;
+        border-top-right-radius: 70px;
+        border-bottom-right-radius: 70px;
+    }
+
+    .about-h2 {
+        font-size: 50px;
+    }
+
+    .about-p2 {
+        font-size: 26px;
+        color: #FF9064;
+    }
+
+    .mid-slider {
+        height: 450px;
+    }
+
+    .num-all {
+        margin-top: 10%;
+    }
+
+    .num1 {
+        width: 570px;
+    }
+
+    .progress-1>span {
+        color: #FF9064;
+    }
+
+    .progress-bar1 {
+        height: 4px;
+        background-color: #FFE7DE;
+    }
+
+    .progress-bar11 {
+        width: 70%;
         background-color: #FF9064;
-        margin-right: 55px;
     }
 
-
-    .button1 {
-        width: 150px;
-        height: 50px;
-        background-color: #FF9064;
-        margin-right: 55px;
-    }
-
-    .logo {
-        width: 135px;
-        height: 46px;
-        margin-left: 70px !important;
-    }
-
-    li {
-        list-style-type: none;
-        padding-right: 45px;
-        padding-top: 30px;
-    }
-
-    li>a {
-        font-size: 16px;
-    }
 }
