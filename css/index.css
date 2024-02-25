@@ -229,6 +229,93 @@
     .p70p {
         height: 70px;
     }
+
+    .p70p {
+        height: 70px;
+    }
+
+    .free-space {
+        height: 500px;
+    }
+
+    .half-700 {
+        width: 75%;
+        height: 700px;
+        right: 0;
+        margin-top: 70px;
+        background-color: #F8F8F8;
+        border-top-left-radius: 70px;
+        border-bottom-left-radius: 70px;
+    }
+
+    .buttom-p {
+        height: 300px;
+    }
+
+    .news {
+        height: 100px;
+    }
+
+    .news>h2 {
+        font-size: 31px;
+    }
+
+    .text-on-pic {
+        bottom: 30%;
+        font-size: 19px;
+    }
+
+    .text-on-pic2 {
+        bottom: 0;
+        font-size: 24px;
+        font-size: 18px;
+    }
+
+    .tips-on-news {
+        width: 40px;
+        background-color: #FF9064;
+        margin-bottom: 25px;
+        margin-left: 13px;
+    }
+
+    .img-news {
+        width: 90%;
+    }
+
+    .free-space2 {
+        width: 100%;
+        height: 400px;
+        background-color: aqua;
+    }
+
+    .footer-p1 {
+        width: 90%;
+        font-size: 18px;
+    }
+
+    .footer-icon {
+        width: 40px;
+        height: 40px;
+        background-color: rgba(255, 133, 83, 0.15);
+        color: #FF9064;
+    }
+
+    .footer-button-row {
+        height: 170px;
+    }
+
+    .footer-button1 {
+        width: 170px;
+        height: 50px;
+        background-color: #FC814F;
+    }
+
+    .footer-button2 {
+        width: 200px;
+        height: 50px;
+        background-color: rgba(255, 255, 255, 0);
+        margin-top: 20px;
+    }
 }
 
 /* ***************************************************************************************** */
@@ -479,6 +566,89 @@
         height: 70px;
     }
 
+    .free-space {
+        height: 500px;
+    }
+
+    .half-700 {
+        width: 75%;
+        height: 700px;
+        right: 0;
+        margin-top: 70px;
+        background-color: #F8F8F8;
+        border-top-left-radius: 70px;
+        border-bottom-left-radius: 70px;
+    }
+
+    .buttom-p {
+        height: 300px;
+    }
+
+    .news {
+        height: 100px;
+    }
+
+    .news>h2 {
+        font-size: 31px;
+    }
+
+    .text-on-pic {
+        bottom: 30%;
+    }
+
+    .text-on-pic2 {
+        bottom: 0;
+        font-size: 24px;
+        width: 150px;
+        padding-bottom: 30px;
+    }
+
+    .tips-on-news {
+        width: 60px;
+        background-color: #FF9064;
+    }
+
+    .img-news {
+        width: 225px;
+    }
+
+    .free-space2 {
+        width: 100%;
+        height: 400px;
+        background-color: aqua;
+    }
+
+    .footer-p1 {
+        width: 90%;
+        font-size: 18px;
+    }
+
+    .footer-icon {
+        width: 40px;
+        height: 40px;
+        background-color: rgba(255, 133, 83, 0.15);
+        color: #FF9064;
+    }
+
+    .footer-button-row {
+        height: 130px;
+    }
+
+    .footer-button1 {
+        width: 170px;
+        height: 50px;
+        background-color: #FC814F;
+    }
+
+    .footer-button2 {
+        width: 200px;
+        height: 50px;
+        background-color: rgba(255, 255, 255, 0);
+    }
+
+    .footer1 {
+        padding-left: 70px;
+    }
 }
 
 /* ***************************************************************************************** */
@@ -715,10 +885,9 @@
 
     .free-space {
         height: 500px;
-        background-color: aqua;
     }
 
-    .half-70 {
+    .half-700 {
         width: 75%;
         height: 700px;
         right: 0;
@@ -729,7 +898,6 @@
     }
 
     .buttom-p {
-        background-color: aqua;
         height: 300px;
     }
 
@@ -758,6 +926,44 @@
 
     .img-news {
         width: 315px;
+    }
+
+    .free-space2 {
+        width: 100%;
+        height: 400px;
+        background-color: aqua;
+    }
+
+    .footer-p1 {
+        width: 90%;
+        font-size: 18px;
+    }
+
+    .footer-icon {
+        width: 40px;
+        height: 40px;
+        background-color: rgba(255, 133, 83, 0.15);
+        color: #FF9064;
+    }
+
+    .footer-button-row {
+        height: 130px;
+    }
+
+    .footer-button1 {
+        width: 170px;
+        height: 50px;
+        background-color: #FC814F;
+    }
+
+    .footer-button2 {
+        width: 170px;
+        height: 50px;
+        background-color: rgba(255, 255, 255, 0);
+    }
+
+    .footer1 {
+        padding-left: 70px;
     }
 }
 
@@ -790,9 +996,7 @@
         height: 47px;
     }
 
-    .nav-bar {
-        background-color: aqua;
-    }
+    .nav-bar {}
 
     .top-page2 {
         height: 350px;
@@ -1027,10 +1231,9 @@
 
     .free-space {
         height: 500px;
-        background-color: aqua;
     }
 
-    .half-70 {
+    .half-700 {
         width: 75%;
         height: 700px;
         right: 0;
@@ -1041,7 +1244,6 @@
     }
 
     .buttom-p {
-        background-color: aqua;
         height: 300px;
     }
 
@@ -1070,6 +1272,44 @@
 
     .img-news {
         width: 435px;
+    }
+
+    .free-space2 {
+        width: 100%;
+        height: 400px;
+        background-color: aqua;
+    }
+
+    .footer-p1 {
+        width: 90%;
+        font-size: 18px;
+    }
+
+    .footer-icon {
+        width: 40px;
+        height: 40px;
+        background-color: rgba(255, 133, 83, 0.15);
+        color: #FF9064;
+    }
+
+    .footer-button-row {
+        height: 130px;
+    }
+
+    .footer-button1 {
+        width: 170px;
+        height: 50px;
+        background-color: #FC814F;
+    }
+
+    .footer-button2 {
+        width: 170px;
+        height: 50px;
+        background-color: rgba(255, 255, 255, 0);
+    }
+
+    .footer1 {
+        padding-left: 70px;
     }
 }
 
@@ -1341,10 +1581,9 @@
 
     .free-space {
         height: 500px;
-        background-color: aqua;
     }
 
-    .half-70 {
+    .half-700 {
         width: 75%;
         height: 700px;
         right: 0;
@@ -1355,7 +1594,6 @@
     }
 
     .buttom-p {
-        background-color: aqua;
         height: 300px;
     }
 
@@ -1648,10 +1886,9 @@
 
     .free-space {
         height: 500px;
-        background-color: aqua;
     }
 
-    .half-70 {
+    .half-700 {
         width: 75%;
         height: 700px;
         right: 0;
@@ -1662,7 +1899,6 @@
     }
 
     .buttom-p {
-        background-color: aqua;
         height: 300px;
     }
 
