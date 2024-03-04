@@ -3,43 +3,32 @@
     /* xs */
     .nav1 {
         width: 100%;
-        background-color: #FF9064;
+        background-color: #5dacbd;
     }
 
     .empty-top-page {
         height: 7px;
-        background-color: #FF9064;
+        background-color: #5dacbd;
     }
 
     .nav {
-        background-color: #FF9064;
+        background-color: #5dacbd;
     }
 
     .nav-item>a {
         color: #FFFFFF;
     }
 
-    .nav-button {
-        width: 150px;
-        height: 50px;
-        background-color: rgba(0, 0, 0, 0);
-        color: #FFFFFF;
-    }
-
-    .nav-button-p {
-        height: 47px;
-    }
-
     .top-page2 {
         height: 290px;
-        background-color: #FF9064;
+        background-color: #5dacbd;
         margin-top: -20px;
     }
 
     .top-page-3 {
         height: 350px;
         margin-top: -7px;
-        background-color: #FF9064;
+        background-color: #5dacbd;
     }
 
     .mid-page {
@@ -100,7 +89,7 @@
     }
 
     .mid-p3 {
-        color: #FF9064;
+        color: #5dacbd;
         text-underline-offset: 10px;
         text-decoration-thickness: 3px;
     }
@@ -156,52 +145,155 @@
         background-image: url(../images/1.jpg);
         background-size: cover;
         overflow: hidden;
-        width: 90%;
-        height: 335px;
+        width: 570px;
+        height: 400px;
+        position: relative;
+    }
+
+    .my-work-photo::after {
+        position: absolute;
+        top: -400px;
+        content: "Strategy & direction";
+        line-height: 700px;
+        font-size: 26px;
+        padding-left: 50px;
+        width: 600px;
+        margin-left: -20px;
+        height: 400px;
+        z-index: 2;
+        background-color: rgba(255, 255, 255, 0.5);
+        ;
+        transition: all ease 500ms 0ms;
+    }
+
+    .my-work-photo:hover::after {
+        top: 0;
     }
 
     .my-work-photo1 {
         background-image: url(../images/2.jpg);
         background-size: cover;
         overflow: hidden;
-        width: 90%;
-        height: 335px;
+        width: 570px;
+        height: 400px;
+        position: relative;
+    }
+
+    .my-work-photo1::after {
+        position: absolute;
+        top: -400px;
+        content: "Strategy & direction";
+        line-height: 700px;
+        font-size: 26px;
+        padding-left: 50px;
+        width: 600px;
+        margin-left: -20px;
+        height: 400px;
+        z-index: 2;
+        background-color: rgba(255, 255, 255, 0.5);
+        ;
+        transition: all ease 500ms 0ms;
+    }
+
+    .my-work-photo1:hover::after {
+        top: 0;
     }
 
     .my-work-photo2 {
         background-image: url(../images/3.jpg);
         background-size: cover;
         overflow: hidden;
-        width: 90%;
-        height: 335px;
+        width: 570px;
+        height: 400px;
+        position: relative;
+    }
+
+    .my-work-photo2::after {
+        position: absolute;
+        top: -400px;
+        content: "Strategy & direction";
+        line-height: 700px;
+        font-size: 26px;
+        padding-left: 50px;
+        width: 600px;
+        margin-left: -20px;
+        height: 400px;
+        z-index: 2;
+        background-color: rgba(255, 255, 255, 0.5);
+        ;
+        transition: all ease 500ms 0ms;
+    }
+
+    .my-work-photo2:hover::after {
+        top: 0;
     }
 
     .my-work-photo3 {
         background-image: url(../images/4.jpg);
         background-size: cover;
         overflow: hidden;
-        width: 90%;
-        height: 335px;
+        width: 570px;
+        height: 400px;
+        position: relative;
+    }
+
+    .my-work-photo3::after {
+        position: absolute;
+        top: -400px;
+        content: "Strategy & direction";
+        font-size: 26px;
+        line-height: 700px;
+        padding-left: 50px;
+        width: 600px;
+        margin-left: -20px;
+        height: 400px;
+        z-index: 2;
+        background-color: rgba(255, 255, 255, 0.5);
+        ;
+        transition: all ease 500ms 0ms;
+    }
+
+    .my-work-photo3:hover::after {
+        top: 0;
     }
 
     .more-work {
         width: 100%;
         height: 170px;
-        color: #FF9064;
+        color: #5dacbd;
     }
 
     .button-more-work {
-        width: 165px;
+        width: 150px;
         height: 50px;
         background-color: rgba(0, 0, 0, 0);
-        border: 2px solid #FF9064;
-        transition: all 200ms ease 0ms;
+        border: 1px solid#5dacbd;
     }
 
-    .button-more-work:hover {
-        cursor: pointer;
-        background-color: #FF9064;
+    .button-more-work::after {
+        position: absolute;
+        z-index: 1;
+        content: "";
+        top: -50px;
+        width: 150px;
+        height: 50px;
+        background-color: #5dacbd;
+        transition: all cubic-bezier(.16, 1.52, .65, .61) 500ms 0ms;
+    }
+
+    .button-more-work-p {
+        width: 100%;
+        padding-left: 25%;
+        color: #5dacbd;
+        line-height: 50px;
+    }
+
+    .button-more-work-p:hover {
         color: white;
+    }
+
+    .button-more-work:hover::after {
+        top: 0;
     }
 
     .half-70 {
@@ -214,7 +306,7 @@
 
     .about-p2 {
         font-size: 26px;
-        color: #FF9064;
+        color: #5dacbd;
     }
 
     .mid-slider {
@@ -226,7 +318,7 @@
     }
 
     .progress-1>span {
-        color: #FF9064;
+        color: #5dacbd;
     }
 
     .progress-bar1 {
@@ -235,8 +327,18 @@
     }
 
     .progress-bar11 {
+        width: 90%;
+        background-color: #5dacbd;
+    }
+
+    .progress-bar12 {
+        width: 85%;
+        background-color: #5dacbd;
+    }
+
+    .progress-bar13 {
         width: 70%;
-        background-color: #FF9064;
+        background-color: #5dacbd;
     }
 
     .test {
@@ -286,7 +388,7 @@
     }
 
     .client-name {
-        color: #FF9064;
+        color: #5dacbd;
         font-size: 17px;
     }
 
@@ -321,6 +423,10 @@
         font-size: 28px;
     }
 
+    .scale-img {
+        overflow: hidden;
+    }
+
     .span-on-img {
         bottom: 50%;
         margin-left: -100px;
@@ -330,8 +436,8 @@
     .button-on-img {
         width: 61px;
         height: 32px;
-        background-color: #FC814F;
-        border-color: #FC814F;
+        background-color: #24527a;
+        border-color: #24527a;
         bottom: 65%;
         margin-left: -170px;
         font-size: 16px;
@@ -366,7 +472,39 @@
         width: 40px;
         height: 40px;
         background-color: rgba(255, 133, 83, 0.15);
-        color: #FF9064;
+        color: #5dacbd;
+    }
+
+    .footer-icon {
+        width: 40px;
+        height: 40px;
+        background-color: white;
+        transition: all ease 1000ms 0ms;
+    }
+
+    #icon-twitter {
+        color: #1DA1F2;
+    }
+
+    #icon-facebook {
+        color: #4267B2;
+    }
+
+    #icon-pinterest {
+        color: #E60023;
+    }
+
+    #icon-web {
+        color: black;
+    }
+
+    #icon-instagram {
+        color: #CC2C83;
+    }
+
+    .footer-icon:hover {
+        background-color: #F8F8F8;
+        transform: rotatey(180deg);
     }
 
     .footer-button-row {
@@ -376,15 +514,22 @@
     .footer-button1 {
         width: 170px;
         height: 50px;
-        background-color: #FC814F;
+        margin-bottom: 20px;
+        background-color: #24527a;
     }
 
     .footer-button2 {
-        width: 200px;
+        width: 170px;
         height: 50px;
         background-color: rgba(255, 255, 255, 0);
-        margin-top: 20px;
+        color: white;
+        transition: all ease 500ms 0ms;
     }
+
+    .footer-button2:hover {
+        color: #5dacbd;
+    }
+
 }
 
 /* ***************************************************************************************** */
@@ -393,42 +538,31 @@
     /* sm */
     .nav1 {
         width: 100%;
-        background-color: #FF9064;
+        background-color: #5dacbd;
     }
 
     .empty-top-page {
         height: 50px;
-        background-color: #FF9064;
+        background-color: #5dacbd;
     }
 
     .nav {
-        background-color: #FF9064;
+        background-color: #5dacbd;
     }
 
     .nav-item>a {
         color: #FFFFFF;
     }
 
-    .nav-button {
-        width: 150px;
-        height: 50px;
-        background-color: rgba(0, 0, 0, 0);
-        color: #FFFFFF;
-    }
-
-    .nav-button-p {
-        height: 47px;
-    }
-
     .top-page2 {
         height: 151px;
-        background-color: #FF9064;
+        background-color: #5dacbd;
         margin-top: -5px;
     }
 
     .top-page-3 {
         height: 250px;
-        background-color: #FF9064;
+        background-color: #5dacbd;
         margin-top: -5px;
     }
 
@@ -495,7 +629,7 @@
     }
 
     .mid-p3 {
-        color: #FF9064;
+        color: #5dacbd;
         font-size: 16px;
         text-underline-offset: 10px;
         text-decoration-thickness: 1.5px;
@@ -560,52 +694,155 @@
         background-image: url(../images/1.jpg);
         background-size: cover;
         overflow: hidden;
-        width: 240px;
-        height: 335px;
+        width: 570px;
+        height: 400px;
+        position: relative;
+    }
+
+    .my-work-photo::after {
+        position: absolute;
+        top: -400px;
+        content: "Strategy & direction";
+        line-height: 700px;
+        font-size: 26px;
+        padding-left: 50px;
+        width: 600px;
+        margin-left: -20px;
+        height: 400px;
+        z-index: 2;
+        background-color: rgba(255, 255, 255, 0.5);
+        ;
+        transition: all ease 500ms 0ms;
+    }
+
+    .my-work-photo:hover::after {
+        top: 0;
     }
 
     .my-work-photo1 {
         background-image: url(../images/2.jpg);
         background-size: cover;
         overflow: hidden;
-        width: 240px;
-        height: 335px;
+        width: 570px;
+        height: 400px;
+        position: relative;
+    }
+
+    .my-work-photo1::after {
+        position: absolute;
+        top: -400px;
+        content: "Strategy & direction";
+        line-height: 700px;
+        font-size: 26px;
+        padding-left: 50px;
+        width: 600px;
+        margin-left: -20px;
+        height: 400px;
+        z-index: 2;
+        background-color: rgba(255, 255, 255, 0.5);
+        ;
+        transition: all ease 500ms 0ms;
+    }
+
+    .my-work-photo1:hover::after {
+        top: 0;
     }
 
     .my-work-photo2 {
         background-image: url(../images/3.jpg);
         background-size: cover;
         overflow: hidden;
-        width: 240px;
-        height: 335px;
+        width: 570px;
+        height: 400px;
+        position: relative;
+    }
+
+    .my-work-photo2::after {
+        position: absolute;
+        top: -400px;
+        content: "Strategy & direction";
+        line-height: 700px;
+        font-size: 26px;
+        padding-left: 50px;
+        width: 600px;
+        margin-left: -20px;
+        height: 400px;
+        z-index: 2;
+        background-color: rgba(255, 255, 255, 0.5);
+        ;
+        transition: all ease 500ms 0ms;
+    }
+
+    .my-work-photo2:hover::after {
+        top: 0;
     }
 
     .my-work-photo3 {
         background-image: url(../images/4.jpg);
         background-size: cover;
         overflow: hidden;
-        width: 240px;
-        height: 335px;
+        width: 570px;
+        height: 400px;
+        position: relative;
+    }
+
+    .my-work-photo3::after {
+        position: absolute;
+        top: -400px;
+        content: "Strategy & direction";
+        font-size: 26px;
+        line-height: 700px;
+        padding-left: 50px;
+        width: 600px;
+        margin-left: -20px;
+        height: 400px;
+        z-index: 2;
+        background-color: rgba(255, 255, 255, 0.5);
+        ;
+        transition: all ease 500ms 0ms;
+    }
+
+    .my-work-photo3:hover::after {
+        top: 0;
     }
 
     .more-work {
         width: 100%;
         height: 170px;
-        color: #FF9064;
+        color: #5dacbd;
     }
 
     .button-more-work {
-        width: 165px;
+        width: 150px;
         height: 50px;
         background-color: rgba(0, 0, 0, 0);
-        border: 2px solid #FF9064;
-        transition: all 200ms ease 0ms;
+        border: 1px solid#5dacbd;
     }
 
-    .button-more-work:hover {
-        cursor: pointer;
-        background-color: #FF9064;
+    .button-more-work::after {
+        position: absolute;
+        z-index: 1;
+        content: "";
+        top: -50px;
+        width: 150px;
+        height: 50px;
+        background-color: #5dacbd;
+        transition: all cubic-bezier(.16, 1.52, .65, .61) 500ms 0ms;
+    }
+
+    .button-more-work-p {
+        width: 100%;
+        padding-left: 25%;
+        color: #5dacbd;
+        line-height: 50px;
+    }
+
+    .button-more-work-p:hover {
         color: white;
+    }
+
+    .button-more-work:hover::after {
+        top: 0;
     }
 
     .half-70 {
@@ -618,7 +855,7 @@
 
     .about-p2 {
         font-size: 26px;
-        color: #FF9064;
+        color: #5dacbd;
     }
 
     .mid-slider {
@@ -630,7 +867,7 @@
     }
 
     .progress-1>span {
-        color: #FF9064;
+        color: #5dacbd;
     }
 
     .progress-bar1 {
@@ -639,8 +876,18 @@
     }
 
     .progress-bar11 {
+        width: 90%;
+        background-color: #5dacbd;
+    }
+
+    .progress-bar12 {
+        width: 85%;
+        background-color: #5dacbd;
+    }
+
+    .progress-bar13 {
         width: 70%;
-        background-color: #FF9064;
+        background-color: #5dacbd;
     }
 
     .test {
@@ -685,7 +932,7 @@
     }
 
     .client-name {
-        color: #FF9064;
+        color: #5dacbd;
     }
 
     .client-pic {
@@ -749,7 +996,39 @@
         width: 40px;
         height: 40px;
         background-color: rgba(255, 133, 83, 0.15);
-        color: #FF9064;
+        color: #5dacbd;
+    }
+
+    .footer-icon {
+        width: 40px;
+        height: 40px;
+        background-color: white;
+        transition: all ease 1000ms 0ms;
+    }
+
+    #icon-twitter {
+        color: #1DA1F2;
+    }
+
+    #icon-facebook {
+        color: #4267B2;
+    }
+
+    #icon-pinterest {
+        color: #E60023;
+    }
+
+    #icon-web {
+        color: black;
+    }
+
+    #icon-instagram {
+        color: #CC2C83;
+    }
+
+    .footer-icon:hover {
+        background-color: #F8F8F8;
+        transform: rotatey(180deg);
     }
 
     .footer-button-row {
@@ -759,13 +1038,19 @@
     .footer-button1 {
         width: 170px;
         height: 50px;
-        background-color: #FC814F;
+        background-color: #24527a;
     }
 
     .footer-button2 {
-        width: 200px;
+        width: 170px;
         height: 50px;
         background-color: rgba(255, 255, 255, 0);
+        color: white;
+        transition: all ease 500ms 0ms;
+    }
+
+    .footer-button2:hover {
+        color: #5dacbd;
     }
 
     .footer1 {
@@ -779,42 +1064,31 @@
     /* md */
     .nav1 {
         width: 100%;
-        background-color: #FF9064;
+        background-color: #5dacbd;
     }
 
     .empty-top-page {
         height: 50px;
-        background-color: #FF9064;
+        background-color: #5dacbd;
     }
 
     .nav {
-        background-color: #FF9064;
+        background-color: #5dacbd;
     }
 
     .nav-item>a {
         color: #FFFFFF;
     }
 
-    .nav-button {
-        width: 150px;
-        height: 50px;
-        background-color: rgba(0, 0, 0, 0);
-        color: #FFFFFF;
-    }
-
-    .nav-button-p {
-        height: 47px;
-    }
-
     .top-page2 {
         height: 250px;
-        background-color: #FF9064;
+        background-color: #5dacbd;
         margin-top: -5px;
     }
 
     .top-page-3 {
         height: 210px;
-        background-color: #FF9064;
+        background-color: #5dacbd;
         margin-top: -5px;
     }
 
@@ -876,7 +1150,7 @@
     }
 
     .mid-p3 {
-        color: #FF9064;
+        color: #5dacbd;
         text-underline-offset: 10px;
         text-decoration-thickness: 3px;
     }
@@ -939,52 +1213,155 @@
         background-image: url(../images/1.jpg);
         background-size: cover;
         overflow: hidden;
-        width: 330px;
-        height: 380px;
+        width: 570px;
+        height: 400px;
+        position: relative;
+    }
+
+    .my-work-photo::after {
+        position: absolute;
+        top: -400px;
+        content: "Strategy & direction";
+        line-height: 700px;
+        font-size: 26px;
+        padding-left: 50px;
+        width: 600px;
+        margin-left: -20px;
+        height: 400px;
+        z-index: 2;
+        background-color: rgba(255, 255, 255, 0.5);
+        ;
+        transition: all ease 500ms 0ms;
+    }
+
+    .my-work-photo:hover::after {
+        top: 0;
     }
 
     .my-work-photo1 {
         background-image: url(../images/2.jpg);
         background-size: cover;
         overflow: hidden;
-        width: 330px;
-        height: 380px;
+        width: 570px;
+        height: 400px;
+        position: relative;
+    }
+
+    .my-work-photo1::after {
+        position: absolute;
+        top: -400px;
+        content: "Strategy & direction";
+        line-height: 700px;
+        font-size: 26px;
+        padding-left: 50px;
+        width: 600px;
+        margin-left: -20px;
+        height: 400px;
+        z-index: 2;
+        background-color: rgba(255, 255, 255, 0.5);
+        ;
+        transition: all ease 500ms 0ms;
+    }
+
+    .my-work-photo1:hover::after {
+        top: 0;
     }
 
     .my-work-photo2 {
         background-image: url(../images/3.jpg);
         background-size: cover;
         overflow: hidden;
-        width: 330px;
-        height: 380px;
+        width: 570px;
+        height: 400px;
+        position: relative;
+    }
+
+    .my-work-photo2::after {
+        position: absolute;
+        top: -400px;
+        content: "Strategy & direction";
+        line-height: 700px;
+        font-size: 26px;
+        padding-left: 50px;
+        width: 600px;
+        margin-left: -20px;
+        height: 400px;
+        z-index: 2;
+        background-color: rgba(255, 255, 255, 0.5);
+        ;
+        transition: all ease 500ms 0ms;
+    }
+
+    .my-work-photo2:hover::after {
+        top: 0;
     }
 
     .my-work-photo3 {
         background-image: url(../images/4.jpg);
         background-size: cover;
         overflow: hidden;
-        width: 330px;
-        height: 380px;
+        width: 570px;
+        height: 400px;
+        position: relative;
+    }
+
+    .my-work-photo3::after {
+        position: absolute;
+        top: -400px;
+        content: "Strategy & direction";
+        font-size: 26px;
+        line-height: 700px;
+        padding-left: 50px;
+        width: 600px;
+        margin-left: -20px;
+        height: 400px;
+        z-index: 2;
+        background-color: rgba(255, 255, 255, 0.5);
+        ;
+        transition: all ease 500ms 0ms;
+    }
+
+    .my-work-photo3:hover::after {
+        top: 0;
     }
 
     .more-work {
         width: 100%;
         height: 170px;
-        color: #FF9064;
+        color: #5dacbd;
     }
 
     .button-more-work {
-        width: 165px;
+        width: 150px;
         height: 50px;
         background-color: rgba(0, 0, 0, 0);
-        border: 2px solid #FF9064;
-        transition: all 200ms ease 0ms;
+        border: 1px solid#5dacbd;
     }
 
-    .button-more-work:hover {
-        cursor: pointer;
-        background-color: #FF9064;
+    .button-more-work::after {
+        position: absolute;
+        z-index: 1;
+        content: "";
+        top: -50px;
+        width: 150px;
+        height: 50px;
+        background-color: #5dacbd;
+        transition: all cubic-bezier(.16, 1.52, .65, .61) 500ms 0ms;
+    }
+
+    .button-more-work-p {
+        width: 100%;
+        padding-left: 25%;
+        color: #5dacbd;
+        line-height: 50px;
+    }
+
+    .button-more-work-p:hover {
         color: white;
+    }
+
+    .button-more-work:hover::after {
+        top: 0;
     }
 
     .half-70 {
@@ -997,7 +1374,7 @@
 
     .about-p2 {
         font-size: 26px;
-        color: #FF9064;
+        color: #5dacbd;
     }
 
     .mid-slider {
@@ -1010,7 +1387,7 @@
     }
 
     .progress-1>span {
-        color: #FF9064;
+        color: #5dacbd;
     }
 
     .progress-bar1 {
@@ -1019,8 +1396,18 @@
     }
 
     .progress-bar11 {
+        width: 90%;
+        background-color: #5dacbd;
+    }
+
+    .progress-bar12 {
+        width: 85%;
+        background-color: #5dacbd;
+    }
+
+    .progress-bar13 {
         width: 70%;
-        background-color: #FF9064;
+        background-color: #5dacbd;
     }
 
     .test {
@@ -1054,7 +1441,7 @@
     }
 
     .client-name {
-        color: #FF9064;
+        color: #5dacbd;
     }
 
     .client-pic {
@@ -1097,8 +1484,8 @@
     .button-on-img {
         width: 61px;
         height: 32px;
-        background-color: #FC814F;
-        border-color: #FC814F;
+        background-color: #24527a;
+        border-color: #24527a;
         bottom: 40%;
         left: 15%;
         font-size: 16px;
@@ -1133,7 +1520,39 @@
         width: 40px;
         height: 40px;
         background-color: rgba(255, 133, 83, 0.15);
-        color: #FF9064;
+        color: #5dacbd;
+    }
+
+    .footer-icon {
+        width: 40px;
+        height: 40px;
+        background-color: white;
+        transition: all ease 1000ms 0ms;
+    }
+
+    #icon-twitter {
+        color: #1DA1F2;
+    }
+
+    #icon-facebook {
+        color: #4267B2;
+    }
+
+    #icon-pinterest {
+        color: #E60023;
+    }
+
+    #icon-web {
+        color: black;
+    }
+
+    #icon-instagram {
+        color: #CC2C83;
+    }
+
+    .footer-icon:hover {
+        background-color: #F8F8F8;
+        transform: rotatey(180deg);
     }
 
     .footer-button-row {
@@ -1143,13 +1562,19 @@
     .footer-button1 {
         width: 170px;
         height: 50px;
-        background-color: #FC814F;
+        background-color: #24527a;
     }
 
     .footer-button2 {
         width: 170px;
         height: 50px;
         background-color: rgba(255, 255, 255, 0);
+        color: white;
+        transition: all ease 500ms 0ms;
+    }
+
+    .footer-button2:hover {
+        color: #5dacbd;
     }
 
     .footer1 {
@@ -1163,50 +1588,76 @@
     /* lg */
     .nav1 {
         width: 100%;
-        background-color: #FF9064;
+        background-color: #5dacbd;
     }
 
     .empty-top-page {
         height: 100px;
-        background-color: #FF9064;
+        background-color: #5dacbd;
     }
 
     .nav {
-        background-color: #FF9064;
+        background-color: #5dacbd;
     }
 
     .nav-item>a {
         color: #FFFFFF;
     }
 
-    .nav-button {
-        width: 150px;
-        height: 50px;
-        background-color: rgba(0, 0, 0, 0);
-        color: #FFFFFF;
+    .nav-item:after {
+        content: '';
+        width: 0px;
+        height: 3px;
+        display: block;
+        background: #FFFFFF;
+        transition: 300ms;
     }
 
-    .nav-button {
-        width: 150px;
-        height: 50px;
-        background-color: rgba(0, 0, 0, 0);
-        color: #FFFFFF;
-        transition: all 200ms ease;
+    .nav-item:hover:after {
+        width: 100%;
     }
 
-    .nav-button-p {
-        height: 47px;
+    .button-1 {
+        width: 150px;
+        height: 50px;
+        background-color: rgba(255, 255, 255, 0);
+    }
+
+    .button-1::after {
+        position: absolute;
+        z-index: 1;
+        content: "";
+        top: -50px;
+        width: 150px;
+        height: 50px;
+        background-color: white;
+        transition: all cubic-bezier(.16, 1.52, .65, .61) 500ms 0ms;
+    }
+
+    .button-p {
+        width: 100%;
+        padding-left: 30%;
+        color: white;
+        line-height: 50px;
+    }
+
+    .button-p:hover {
+        color: #5dacbd;
+    }
+
+    .button-1:hover::after {
+        top: 0;
     }
 
     .top-page2 {
         height: 350px;
-        background-color: #FF9064;
+        background-color: #5dacbd;
         margin-top: -5px;
     }
 
     .top-page-3 {
         height: 200px;
-        background-color: #FF9064;
+        background-color: #5dacbd;
         margin-top: -5px;
     }
 
@@ -1268,7 +1719,7 @@
     }
 
     .mid-p3 {
-        color: #FF9064;
+        color: #5dacbd;
         text-underline-offset: 10px;
         text-decoration-thickness: 3px;
     }
@@ -1332,52 +1783,155 @@
         background-image: url(../images/1.jpg);
         background-size: cover;
         overflow: hidden;
-        width: 450px;
+        width: 570px;
         height: 400px;
+        position: relative;
+    }
+
+    .my-work-photo::after {
+        position: absolute;
+        top: -400px;
+        content: "Strategy & direction";
+        line-height: 700px;
+        font-size: 26px;
+        padding-left: 50px;
+        width: 600px;
+        margin-left: -20px;
+        height: 400px;
+        z-index: 2;
+        background-color: rgba(255, 255, 255, 0.5);
+        ;
+        transition: all ease 500ms 0ms;
+    }
+
+    .my-work-photo:hover::after {
+        top: 0;
     }
 
     .my-work-photo1 {
         background-image: url(../images/2.jpg);
         background-size: cover;
         overflow: hidden;
-        width: 450px;
+        width: 570px;
         height: 400px;
+        position: relative;
+    }
+
+    .my-work-photo1::after {
+        position: absolute;
+        top: -400px;
+        content: "Strategy & direction";
+        line-height: 700px;
+        font-size: 26px;
+        padding-left: 50px;
+        width: 600px;
+        margin-left: -20px;
+        height: 400px;
+        z-index: 2;
+        background-color: rgba(255, 255, 255, 0.5);
+        ;
+        transition: all ease 500ms 0ms;
+    }
+
+    .my-work-photo1:hover::after {
+        top: 0;
     }
 
     .my-work-photo2 {
         background-image: url(../images/3.jpg);
         background-size: cover;
         overflow: hidden;
-        width: 450px;
+        width: 570px;
         height: 400px;
+        position: relative;
+    }
+
+    .my-work-photo2::after {
+        position: absolute;
+        top: -400px;
+        content: "Strategy & direction";
+        line-height: 700px;
+        font-size: 26px;
+        padding-left: 50px;
+        width: 600px;
+        margin-left: -20px;
+        height: 400px;
+        z-index: 2;
+        background-color: rgba(255, 255, 255, 0.5);
+        ;
+        transition: all ease 500ms 0ms;
+    }
+
+    .my-work-photo2:hover::after {
+        top: 0;
     }
 
     .my-work-photo3 {
         background-image: url(../images/4.jpg);
         background-size: cover;
         overflow: hidden;
-        width: 450px;
+        width: 570px;
         height: 400px;
+        position: relative;
+    }
+
+    .my-work-photo3::after {
+        position: absolute;
+        top: -400px;
+        content: "Strategy & direction";
+        font-size: 26px;
+        line-height: 700px;
+        padding-left: 50px;
+        width: 600px;
+        margin-left: -20px;
+        height: 400px;
+        z-index: 2;
+        background-color: rgba(255, 255, 255, 0.5);
+        ;
+        transition: all ease 500ms 0ms;
+    }
+
+    .my-work-photo3:hover::after {
+        top: 0;
     }
 
     .more-work {
         width: 100%;
         height: 170px;
-        color: #FF9064;
+        color: #5dacbd;
     }
 
     .button-more-work {
-        width: 165px;
+        width: 150px;
         height: 50px;
         background-color: rgba(0, 0, 0, 0);
-        border: 2px solid #FF9064;
-        transition: all 200ms ease 0ms;
+        border: 1px solid#5dacbd;
     }
 
-    .button-more-work:hover {
-        cursor: pointer;
-        background-color: #FF9064;
+    .button-more-work::after {
+        position: absolute;
+        z-index: 1;
+        content: "";
+        top: -50px;
+        width: 150px;
+        height: 50px;
+        background-color: #5dacbd;
+        transition: all cubic-bezier(.16, 1.52, .65, .61) 500ms 0ms;
+    }
+
+    .button-more-work-p {
+        width: 100%;
+        padding-left: 25%;
+        color: #5dacbd;
+        line-height: 50px;
+    }
+
+    .button-more-work-p:hover {
         color: white;
+    }
+
+    .button-more-work:hover::after {
+        top: 0;
     }
 
     .half-70 {
@@ -1390,7 +1944,7 @@
 
     .about-p2 {
         font-size: 26px;
-        color: #FF9064;
+        color: #5dacbd;
     }
 
     .mid-slider {
@@ -1406,7 +1960,7 @@
     }
 
     .progress-1>span {
-        color: #FF9064;
+        color: #5dacbd;
     }
 
     .progress-bar1 {
@@ -1415,8 +1969,18 @@
     }
 
     .progress-bar11 {
+        width: 90%;
+        background-color: #5dacbd;
+    }
+
+    .progress-bar12 {
+        width: 85%;
+        background-color: #5dacbd;
+    }
+
+    .progress-bar13 {
         width: 70%;
-        background-color: #FF9064;
+        background-color: #5dacbd;
     }
 
     .test {
@@ -1450,7 +2014,7 @@
     }
 
     .client-name {
-        color: #FF9064;
+        color: #5dacbd;
     }
 
     .client-pic {
@@ -1493,8 +2057,8 @@
     .button-on-img {
         width: 61px;
         height: 32px;
-        background-color: #FC814F;
-        border-color: #FC814F;
+        background-color: #24527a;
+        border-color: #24527a;
         bottom: 40%;
         left: 10%;
         font-size: 16px;
@@ -1529,7 +2093,39 @@
         width: 40px;
         height: 40px;
         background-color: rgba(255, 133, 83, 0.15);
-        color: #FF9064;
+        color: #5dacbd;
+    }
+
+    .footer-icon {
+        width: 40px;
+        height: 40px;
+        background-color: white;
+        transition: all ease 1000ms 0ms;
+    }
+
+    #icon-twitter {
+        color: #1DA1F2;
+    }
+
+    #icon-facebook {
+        color: #4267B2;
+    }
+
+    #icon-pinterest {
+        color: #E60023;
+    }
+
+    #icon-web {
+        color: black;
+    }
+
+    #icon-instagram {
+        color: #CC2C83;
+    }
+
+    .footer-icon:hover {
+        background-color: #F8F8F8;
+        transform: rotatey(180deg);
     }
 
     .footer-button-row {
@@ -1539,13 +2135,19 @@
     .footer-button1 {
         width: 170px;
         height: 50px;
-        background-color: #FC814F;
+        background-color: #24527a;
     }
 
     .footer-button2 {
         width: 170px;
         height: 50px;
         background-color: rgba(255, 255, 255, 0);
+        color: white;
+        transition: all ease 500ms 0ms;
+    }
+
+    .footer-button2:hover {
+        color: #5dacbd;
     }
 
     .footer1 {
@@ -1559,51 +2161,84 @@
     /* xl */
     .nav1 {
         width: 100%;
-        background-color: #FF9064;
+        background-color: #5dacbd;
     }
 
     .empty-top-page {
         height: 170px;
-        background-color: #FF9064;
+        background-color: #5dacbd;
     }
 
     .nav {
-        background-color: #FF9064;
+        background-color: #5dacbd;
     }
 
     .nav-item>a {
         color: #FFFFFF;
     }
 
+    .nav-item:after {
+        content: '';
+        width: 0px;
+        height: 3px;
+        display: block;
+        background: #FFFFFF;
+        transition: 300ms;
+    }
 
-    .nav-button {
+    .nav-item:hover:after {
+        width: 100%;
+    }
+
+
+    .button-1 {
         width: 150px;
         height: 50px;
-        background-color: rgba(0, 0, 0, 0);
-        color: #FFFFFF;
+        background-color: rgba(255, 255, 255, 0);
     }
 
-    .nav-button {
+    .button-1::after {
+        position: absolute;
+        z-index: 1;
+        content: "";
+        top: -50px;
         width: 150px;
         height: 50px;
-        background-color: rgba(0, 0, 0, 0);
-        color: #FFFFFF;
-        transition: all 200ms ease;
+        background-color: white;
+        transition: all cubic-bezier(.16, 1.52, .65, .61) 500ms 0ms;
     }
 
-    .nav-button-p {
-        height: 47px;
+    .button-p {
+        width: 100%;
+        padding-left: 30%;
+        color: white;
+        line-height: 50px;
     }
+
+    .button-p:hover {
+        color: #5dacbd;
+    }
+
+    .button-1:hover::after {
+        top: 0;
+    }
+
+
+
+
+
+
+
 
     .top-page2 {
         height: 350px;
-        background-color: #FF9064;
+        background-color: #5dacbd;
         margin-top: -5px;
     }
 
     .top-page-3 {
         height: 250px;
-        background-color: #FF9064;
+        background-color: #5dacbd;
         margin-top: -5px;
     }
 
@@ -1666,7 +2301,7 @@
     }
 
     .mid-p3 {
-        color: #FF9064;
+        color: #5dacbd;
         text-underline-offset: 10px;
         text-decoration-thickness: 3px;
     }
@@ -1732,6 +2367,27 @@
         overflow: hidden;
         width: 570px;
         height: 400px;
+        position: relative;
+    }
+
+    .my-work-photo::after {
+        position: absolute;
+        top: -400px;
+        content: "Strategy & direction";
+        line-height: 700px;
+        font-size: 26px;
+        padding-left: 50px;
+        width: 600px;
+        margin-left: -20px;
+        height: 400px;
+        z-index: 2;
+        background-color: rgba(255, 255, 255, 0.5);
+        ;
+        transition: all ease 500ms 0ms;
+    }
+
+    .my-work-photo:hover::after {
+        top: 0;
     }
 
     .my-work-photo1 {
@@ -1740,6 +2396,27 @@
         overflow: hidden;
         width: 570px;
         height: 400px;
+        position: relative;
+    }
+
+    .my-work-photo1::after {
+        position: absolute;
+        top: -400px;
+        content: "Strategy & direction";
+        line-height: 700px;
+        font-size: 26px;
+        padding-left: 50px;
+        width: 600px;
+        margin-left: -20px;
+        height: 400px;
+        z-index: 2;
+        background-color: rgba(255, 255, 255, 0.5);
+        ;
+        transition: all ease 500ms 0ms;
+    }
+
+    .my-work-photo1:hover::after {
+        top: 0;
     }
 
     .my-work-photo2 {
@@ -1748,6 +2425,27 @@
         overflow: hidden;
         width: 570px;
         height: 400px;
+        position: relative;
+    }
+
+    .my-work-photo2::after {
+        position: absolute;
+        top: -400px;
+        content: "Strategy & direction";
+        line-height: 700px;
+        font-size: 26px;
+        padding-left: 50px;
+        width: 600px;
+        margin-left: -20px;
+        height: 400px;
+        z-index: 2;
+        background-color: rgba(255, 255, 255, 0.5);
+        ;
+        transition: all ease 500ms 0ms;
+    }
+
+    .my-work-photo2:hover::after {
+        top: 0;
     }
 
     .my-work-photo3 {
@@ -1756,26 +2454,66 @@
         overflow: hidden;
         width: 570px;
         height: 400px;
+        position: relative;
+    }
+
+    .my-work-photo3::after {
+        position: absolute;
+        top: -400px;
+        content: "Strategy & direction";
+        font-size: 26px;
+        line-height: 700px;
+        padding-left: 50px;
+        width: 600px;
+        margin-left: -20px;
+        height: 400px;
+        z-index: 2;
+        background-color: rgba(255, 255, 255, 0.5);
+        ;
+        transition: all ease 500ms 0ms;
+    }
+
+    .my-work-photo3:hover::after {
+        top: 0;
     }
 
     .more-work {
         width: 100%;
         height: 170px;
-        color: #FF9064;
+        color: #5dacbd;
     }
 
     .button-more-work {
-        width: 165px;
+        width: 150px;
         height: 50px;
         background-color: rgba(0, 0, 0, 0);
-        border: 2px solid #FF9064;
-        transition: all 200ms ease 0ms;
+        border: 1px solid#5dacbd;
     }
 
-    .button-more-work:hover {
-        cursor: pointer;
-        background-color: #FF9064;
+    .button-more-work::after {
+        position: absolute;
+        z-index: 1;
+        content: "";
+        top: -50px;
+        width: 150px;
+        height: 50px;
+        background-color: #5dacbd;
+        transition: all cubic-bezier(.16, 1.52, .65, .61) 500ms 0ms;
+    }
+
+    .button-more-work-p {
+        width: 100%;
+        padding-left: 25%;
+        color: #5dacbd;
+        line-height: 50px;
+    }
+
+    .button-more-work-p:hover {
         color: white;
+    }
+
+    .button-more-work:hover::after {
+        top: 0;
     }
 
     .half-70 {
@@ -1792,7 +2530,7 @@
 
     .about-p2 {
         font-size: 26px;
-        color: #FF9064;
+        color: #5dacbd;
     }
 
     .mid-slider {
@@ -1808,7 +2546,7 @@
     }
 
     .progress-1>span {
-        color: #FF9064;
+        color: #5dacbd;
     }
 
     .progress-bar1 {
@@ -1817,8 +2555,18 @@
     }
 
     .progress-bar11 {
+        width: 90%;
+        background-color: #5dacbd;
+    }
+
+    .progress-bar12 {
+        width: 85%;
+        background-color: #5dacbd;
+    }
+
+    .progress-bar13 {
         width: 70%;
-        background-color: #FF9064;
+        background-color: #5dacbd;
     }
 
     .test {
@@ -1856,7 +2604,7 @@
     }
 
     .client-name {
-        color: #FF9064;
+        color: #5dacbd;
     }
 
     .client-pic {
@@ -1903,8 +2651,8 @@
     .button-on-img {
         width: 61px;
         height: 32px;
-        background-color: #FC814F;
-        border-color: #FC814F;
+        background-color: #24527a;
+        border-color: #24527a;
         bottom: 25%;
         left: 10%;
         font-size: 16px;
@@ -1930,7 +2678,39 @@
         width: 40px;
         height: 40px;
         background-color: rgba(255, 133, 83, 0.15);
-        color: #FF9064;
+        color: #5dacbd;
+    }
+
+    .footer-icon {
+        width: 40px;
+        height: 40px;
+        background-color: white;
+        transition: all ease 1000ms 0ms;
+    }
+
+    #icon-twitter {
+        color: #1DA1F2;
+    }
+
+    #icon-facebook {
+        color: #4267B2;
+    }
+
+    #icon-pinterest {
+        color: #E60023;
+    }
+
+    #icon-web {
+        color: black;
+    }
+
+    #icon-instagram {
+        color: #CC2C83;
+    }
+
+    .footer-icon:hover {
+        background-color: #F8F8F8;
+        transform: rotatey(180deg);
     }
 
     .footer-button-row {
@@ -1940,13 +2720,19 @@
     .footer-button1 {
         width: 170px;
         height: 50px;
-        background-color: #FC814F;
+        background-color: #24527a;
     }
 
     .footer-button2 {
         width: 170px;
         height: 50px;
         background-color: rgba(255, 255, 255, 0);
+        color: white;
+        transition: all ease 500ms 0ms;
+    }
+
+    .footer-button2:hover {
+        color: #5dacbd;
     }
 
     .footer1 {
@@ -1960,16 +2746,16 @@
     /* xxl */
     .nav1 {
         width: 100%;
-        background-color: #FF9064;
+        background-color: #5dacbd;
     }
 
     .empty-top-page {
         height: 250px;
-        background-color: #FF9064;
+        background-color: #5dacbd;
     }
 
     .nav {
-        background-color: #FF9064;
+        background-color: #5dacbd;
     }
 
     .nav-item>a {
@@ -1989,26 +2775,41 @@
         width: 100%;
     }
 
-    .nav-button {
+    .button-1 {
         width: 150px;
         height: 50px;
-        background-color: rgba(0, 0, 0, 0);
-        color: #FFFFFF;
-        transition: all 200ms ease;
+        background-color: rgba(255, 255, 255, 0);
     }
 
-    .nav-button:hover {
-        background-color: #FFFFFF;
-        color: #FF9064;
+    .button-1::after {
+        position: absolute;
+        z-index: 1;
+        content: "";
+        top: -50px;
+        width: 150px;
+        height: 50px;
+        background-color: white;
+        transition: all cubic-bezier(.16, 1.52, .65, .61) 500ms 0ms;
     }
 
-    .nav-button-p {
-        height: 47px;
+    .button-p {
+        width: 100%;
+        padding-left: 30%;
+        color: white;
+        line-height: 50px;
+    }
+
+    .button-p:hover {
+        color: #5dacbd;
+    }
+
+    .button-1:hover::after {
+        top: 0;
     }
 
     .top-page2 {
         height: 350px;
-        background-color: #FF9064;
+        background-color: #5dacbd;
         margin-top: -5px;
     }
 
@@ -2019,7 +2820,7 @@
 
     .top-page-3 {
         height: 200px;
-        background-color: #FF9064;
+        background-color: #5dacbd;
         margin-top: -5px;
     }
 
@@ -2077,7 +2878,7 @@
     }
 
     .mid-p3 {
-        color: #FF9064;
+        color: #5dacbd;
         text-underline-offset: 10px;
         text-decoration-thickness: 3px;
     }
@@ -2143,6 +2944,27 @@
         overflow: hidden;
         width: 570px;
         height: 400px;
+        position: relative;
+    }
+
+    .my-work-photo::after {
+        position: absolute;
+        top: -400px;
+        content: "Strategy & direction";
+        line-height: 700px;
+        font-size: 26px;
+        padding-left: 50px;
+        width: 600px;
+        margin-left: -20px;
+        height: 400px;
+        z-index: 2;
+        background-color: rgba(255, 255, 255, 0.5);
+        ;
+        transition: all ease 500ms 0ms;
+    }
+
+    .my-work-photo:hover::after {
+        top: 0;
     }
 
     .my-work-photo1 {
@@ -2151,6 +2973,27 @@
         overflow: hidden;
         width: 570px;
         height: 400px;
+        position: relative;
+    }
+
+    .my-work-photo1::after {
+        position: absolute;
+        top: -400px;
+        content: "Strategy & direction";
+        line-height: 700px;
+        font-size: 26px;
+        padding-left: 50px;
+        width: 600px;
+        margin-left: -20px;
+        height: 400px;
+        z-index: 2;
+        background-color: rgba(255, 255, 255, 0.5);
+        ;
+        transition: all ease 500ms 0ms;
+    }
+
+    .my-work-photo1:hover::after {
+        top: 0;
     }
 
     .my-work-photo2 {
@@ -2159,6 +3002,27 @@
         overflow: hidden;
         width: 570px;
         height: 400px;
+        position: relative;
+    }
+
+    .my-work-photo2::after {
+        position: absolute;
+        top: -400px;
+        content: "Strategy & direction";
+        line-height: 700px;
+        font-size: 26px;
+        padding-left: 50px;
+        width: 600px;
+        margin-left: -20px;
+        height: 400px;
+        z-index: 2;
+        background-color: rgba(255, 255, 255, 0.5);
+        ;
+        transition: all ease 500ms 0ms;
+    }
+
+    .my-work-photo2:hover::after {
+        top: 0;
     }
 
     .my-work-photo3 {
@@ -2167,26 +3031,65 @@
         overflow: hidden;
         width: 570px;
         height: 400px;
+        position: relative;
+    }
+
+    .my-work-photo3::after {
+        position: absolute;
+        top: -400px;
+        content: "Strategy & direction";
+        font-size: 26px;
+        line-height: 700px;
+        padding-left: 50px;
+        width: 600px;
+        margin-left: -20px;
+        height: 400px;
+        z-index: 2;
+        background-color: rgba(255, 255, 255, 0.5);
+        ;
+        transition: all ease 500ms 0ms;
+    }
+
+    .my-work-photo3:hover::after {
+        top: 0;
     }
 
     .more-work {
         width: 100%;
         height: 170px;
-        color: #FF9064;
     }
 
     .button-more-work {
-        width: 165px;
+        width: 150px;
         height: 50px;
         background-color: rgba(0, 0, 0, 0);
-        border: 2px solid #FF9064;
-        transition: all 200ms ease 0ms;
+        border: 1px solid#5dacbd;
     }
 
-    .button-more-work:hover {
-        cursor: pointer;
-        background-color: #FF9064;
+    .button-more-work::after {
+        position: absolute;
+        z-index: 1;
+        content: "";
+        top: -50px;
+        width: 150px;
+        height: 50px;
+        background-color: #5dacbd;
+        transition: all cubic-bezier(.16, 1.52, .65, .61) 500ms 0ms;
+    }
+
+    .button-more-work-p {
+        width: 100%;
+        padding-left: 25%;
+        color: #5dacbd;
+        line-height: 50px;
+    }
+
+    .button-more-work-p:hover {
         color: white;
+    }
+
+    .button-more-work:hover::after {
+        top: 0;
     }
 
     .half-70 {
@@ -2203,7 +3106,7 @@
 
     .about-p2 {
         font-size: 26px;
-        color: #FF9064;
+        color: #5dacbd;
     }
 
     .mid-slider {
@@ -2219,7 +3122,7 @@
     }
 
     .progress-1>span {
-        color: #FF9064;
+        color: #5dacbd;
     }
 
     .progress-bar1 {
@@ -2228,8 +3131,18 @@
     }
 
     .progress-bar11 {
+        width: 90%;
+        background-color: #5dacbd;
+    }
+
+    .progress-bar12 {
+        width: 85%;
+        background-color: #5dacbd;
+    }
+
+    .progress-bar13 {
         width: 70%;
-        background-color: #FF9064;
+        background-color: #5dacbd;
     }
 
     .test {
@@ -2268,7 +3181,7 @@
     }
 
     .client-name {
-        color: #FF9064;
+        color: #5dacbd;
     }
 
     .client-pic {
@@ -2307,8 +3220,8 @@
     .button-on-img {
         width: 61px;
         height: 32px;
-        background-color: #FC814F;
-        border-color: #FC814F;
+        background-color: #24527a;
+        border-color: #24527a;
         bottom: 25%;
         left: 10%;
         font-size: 16px;
@@ -2345,8 +3258,65 @@
     .footer-icon {
         width: 40px;
         height: 40px;
-        background-color: rgba(255, 133, 83, 0.15);
-        color: #FF9064;
+        background-color: white;
+        transition: all ease 1000ms 0ms;
+    }
+
+    #icon-twitter {
+        color: #1DA1F2;
+    }
+
+    #icon-facebook {
+        color: #4267B2;
+    }
+
+    #icon-pinterest {
+        color: #E60023;
+    }
+
+    #icon-web {
+        color: black;
+    }
+
+    #icon-instagram {
+        color: #CC2C83;
+    }
+
+    .footer-icon:hover {
+        background-color: #F8F8F8;
+        transform: rotatey(180deg);
+    }
+
+    .footer-button1 .footer-icon {
+        width: 40px;
+        height: 40px;
+        background-color: white;
+        transition: all ease 1000ms 0ms;
+    }
+
+    #icon-twitter {
+        color: #1DA1F2;
+    }
+
+    #icon-facebook {
+        color: #4267B2;
+    }
+
+    #icon-pinterest {
+        color: #E60023;
+    }
+
+    #icon-web {
+        color: black;
+    }
+
+    #icon-instagram {
+        color: #CC2C83;
+    }
+
+    .footer-icon:hover {
+        background-color: #F8F8F8;
+        transform: rotatey(180deg);
     }
 
     .footer-button-row {
@@ -2356,13 +3326,19 @@
     .footer-button1 {
         width: 170px;
         height: 50px;
-        background-color: #FC814F;
+        background-color: #24527a;
     }
 
     .footer-button2 {
         width: 170px;
         height: 50px;
         background-color: rgba(255, 255, 255, 0);
+        color: white;
+        transition: all ease 500ms 0ms;
+    }
+
+    .footer-button2:hover {
+        color: #5dacbd;
     }
 
     .footer1 {
